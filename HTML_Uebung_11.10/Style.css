@@ -1,0 +1,127 @@
+body{
+    font-size: 1.6em;
+}
+header{
+    background-color: #9ea814;
+    height: 200px;
+}
+#tiger{
+    position:relative; left:250em;top:20em
+    font-size: 2em;
+    font-palette: light;
+    display:inline-block;
+    
+}
+.paginas{
+    font-size: 1.3em;
+    box-sizing: border-box; solid 5px grey;
+}
+.bt
+{ box-sizing: border-box;
+    width:20px;
+    font-size: 1.3em;
+    border: solid 5px grey;
+    
+}
+#logo{
+    background-image:"coatings_grey_logo.svg";
+    width: 1.75em;
+    height: 1.75em;
+}
+aside{
+    position:relative; left:10vw; top:20vh;
+}
+
+form {
+       
+        margin: 0 auto;
+        width: 400px;
+    height:400px;
+        /* Esquema del formulario */
+        padding: 2em;
+        border: 2px solid #ccc;
+        border-radius: 1.2em;
+    position:relative; top:-10em;
+    }
+input{
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+.product{
+    margin: 5 auto;
+    width: 10vw;
+    height: 20vh;
+    border: solid grey 5px;
+    position: relative; left: 25em; top:-10em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background-repeat: no-repeat;
+    display: inline-block ;
+    background-size: cover;
+}
+.button {
+    font: 100%1.5 sans-serif;
+    display:inline-block;
+    text-align:center;
+    vertical-align: middle;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    margin:1rem;
+    transition:all 0.2s ease;
+}
+#link1{
+    background-color: #a8a7a7;
+}
+#link2{
+    background-color: #a8a7a7;
+}
+#link3{
+    background-color: #a8a7a7;
+}
+
+.product:hover{
+    z-index: 9;
+    transform: scale(1.02);
+}
+#product1{
+    background-image:url(Produkt1.png);
+}
+#product2{
+    background-image:url(Produkt2.png);
+    
+}
+#product3{
+    background-image:url(Produkt3.png);
+}
+
+#product4{
+    background-image:url(Produkt4.png);
+}
+#product5{
+    background-image:url(Produkt5.png);
+}
+#product6{
+    background-image:url(Produkt6.png);
+}
+#product7{
+    background-image:url(Produkt7.png);
+}
+#product8{
+    background-image:url(Produkt8.png);
+}
+
+
+
+footer{
+    background-color: darkgrey  ;
+    font-family: "Bookman Old Style";
+    font-size: 0.75em;
+    position: absolute; bottom:0px;
+    width: 100vw;
+    
+}
+#container{
+    position: relative; bottom:0; left:0;
+    
+}
