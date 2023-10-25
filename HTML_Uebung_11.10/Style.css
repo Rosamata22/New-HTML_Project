@@ -59,6 +59,16 @@ input{
     display: inline-block ;
     background-size: cover;
 }
+#logo2{
+    position:relative; left:50em;top:-5em;
+}
+#logo2:hover{
+    z-index: 9;
+    transform: translateX(85px);
+}
+.menu a:hover::before {
+    background-position: 0;
+}
 .button {
     font: 100%1.5 sans-serif;
     display:inline-block;
