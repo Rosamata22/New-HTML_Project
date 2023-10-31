@@ -1,16 +1,31 @@
 body{
     font-size: 1.6em;
 }
+html{
+     font-size: 1.3em;
+    font-family: Courier New, serif;
+}
+
 header{
     background-color: #9ea814;
-    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+    margin: 0px;
+}
+#principal{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
 }
 #tiger{
-    position:relative; left:250em;top:20em
+    position:relative; left:250em;top:20em;
     font-size: 2em;
     font-palette: light;
     display:inline-block;
-    
+}
+#tigerlogogde{
+    overflow:hidden;
 }
 .paginas{
     font-size: 1.3em;
@@ -29,11 +44,20 @@ header{
     height: 1.75em;
 }
 aside{
-    position:relative; left:10vw; top:20vh;
+    position:relative; left:5vw; top:20vh;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    flex-shrink:1;
+}
+.buttonhervorgehoben{
+    background-color: #a8a7a7;
+    font-size: 5em;
+    
 }
 
 form {
-       
         margin: 0 auto;
         width: 400px;
     height:400px;
@@ -49,7 +73,7 @@ input{
     border: 1px solid #999;
 }
 .product{
-    margin: 5 auto;
+    margin: 5px auto;
     width: 10vw;
     height: 20vh;
     border: solid grey 5px;
@@ -59,8 +83,27 @@ input{
     display: inline-block ;
     background-size: cover;
 }
+.productflex{
+    display:flex;
+    position:relative;
+    margin: 5px auto;
+    width: 10vw;
+    height: 20vh;
+    border: solid grey 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#flex{
+    width:50vw;
+    position:relative; left:20vw; top:-3em;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:flex-end;
+    flex-direction:row;
+}
 #logo2{
-    position:relative; left:50em;top:-5em;
+    position:relative; left:50em;top:0em;
 }
 #logo2:hover{
     z-index: 9;
@@ -69,8 +112,11 @@ input{
 .menu a:hover::before {
     background-position: 0;
 }
+.productflex:hover{
+    z-index: 9;
+    transform: scale(1.02);
+}
 .button {
-    font: 100%1.5 sans-serif;
     display:inline-block;
     text-align:center;
     vertical-align: middle;
@@ -79,15 +125,6 @@ input{
     color: #fff;
     margin:1rem;
     transition:all 0.2s ease;
-}
-#link1{
-    background-color: #a8a7a7;
-}
-#link2{
-    background-color: #a8a7a7;
-}
-#link3{
-    background-color: #a8a7a7;
 }
 
 .product:hover{
@@ -121,14 +158,63 @@ input{
     background-image:url(Produkt8.png);
 }
 
+#productflex1{
+    background-image:url(Produkt1.png);
+}
+#productflex2{
+    background-image:url(Produkt2.png);
 
+}
+#productflex3{
+    background-image:url(Produkt3.png);
+}
 
+#productflex4{
+    background-image:url(Produkt4.png);
+}
+#productflex5{
+    background-image:url(Produkt5.png);
+}
+#productflex6{
+    background-image:url(Produkt6.png);
+}
+#productflex7{
+    background-image:url(Produkt7.png);
+}
+#productflex8{
+    background-image:url(Produkt8.png);
+}
+@media (min-width: 992px){
+    body{
+        width:50%;
+    }
+    
+}
+@media (min-width: 780px){
+    body{
+        width:50%;
+        background-color: coral;
+        flex:1;
+    
+    }
+}
+@media (min-width: 576px){
+    body{
+        width:50%;
+        background-color: blueviolet;
+        flex:1;
+    }
+}
 footer{
     background-color: darkgrey  ;
     font-family: "Bookman Old Style";
     font-size: 0.75em;
-    position: absolute; bottom:0px;
+    display: flex;
+    justify-content: flex-end;
     width: 100vw;
+    
+    
+    
     
 }
 #container{
