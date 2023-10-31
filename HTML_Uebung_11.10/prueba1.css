@@ -19,9 +19,7 @@
     border:maroon 5px solid;
     display:flex;
     flex-direction:row;
-    gap:50px;
     flex:1 0 auto;
-    overflow-y: scroll;
 }
 
 aside{
@@ -32,12 +30,12 @@ aside{
     flex-direction:column;
     justify-content: flex-start;
 }
+
 nav{
     display: flex;
     flex:1;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 .buttonhervorgehoben{
     display:flex;
@@ -49,20 +47,20 @@ nav{
     font-size-adjust:inherit;
     border: 2px solid #ccc;
     border-radius: 1em;
+    overflow: hidden;
 }
 #flex{
-    width:60vw;
-    height:50vh;
+    width:70vw;
+    height:70vh;
     position:relative; left:10vw; top:10vh; 
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
     align-items:center;
     justify-content: center;
-    
-    
-    
+    overflow-y: scroll;
 }
+
 .productflex{
     display:flex;
     margin: 5px auto;
@@ -72,6 +70,18 @@ nav{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     background-repeat: no-repeat;
     background-size: cover;
+}
+@media (max-width:500px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .buttonhervorgehoben{
+        display:flex;
+        flex-direction: row;
+    }
 }
 
 #piepagina{
@@ -92,6 +102,6 @@ footer {
     
 }
 #container{
-    position: relative; bottom:0; left:0;
+    position: relative; bottom:3px; 
 
 }
