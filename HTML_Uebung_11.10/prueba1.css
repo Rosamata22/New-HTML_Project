@@ -71,16 +71,60 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#productflex1{
+    background-image:url(Produkt1.png);
+}
+#productflex2{
+    background-image:url(Produkt2.png);
+}
+#productflex3{
+    background-image:url(Produkt3.png);
+}
+
+#productflex4{
+    background-image:url(Produkt4.png);
+}
+#productflex5{
+    background-image:url(Produkt5.png);
+}
+#productflex6{
+    background-image:url(Produkt6.png);
+}
+#productflex7{
+    background-image:url(Produkt7.png);
+}
+#productflex8{
+    background-image:url(Produkt8.png);
+}
 @media (max-width:500px){
+    #main{
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start;
+        width:70vw;
+        height:70vh;
+    }
     nav{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: flex-end;
+        align-items: flex-start;
+        position:relative; top:5px;
+        width:100vw;
+        height:15vh;
+    }
+    aside{
+        height:15vh;
+        position:relative; top:20px;
     }
     .buttonhervorgehoben{
         display:flex;
         flex-direction: row;
+    }
+    #flex{
+        display:flex;
+        position:relative; top:5px;
+        
     }
 }
 
@@ -94,7 +138,7 @@ nav{
 footer {
     background-color: darkgrey;
     border:rot 5px solid;
-    font-family: "Bookman Old Style";
+    font: "Bookman Old Style";
     font-size: 1em;
     display: flex;
     justify-content: flex-end;
